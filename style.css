@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    margin:0;
+}
+
+header{
+    height: 80px;
+    background-color:#E5DBD0;
+    display: flex;
+    justify-content:space-between;
+}
+
+h1{
+    align-self: center;
+    margin: auto 50px;
+}
+
+img{
+    width: 200px;
+}
+
+#nav {
+    color: #8C6927;
+    display: flex;
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+#nav li {
+    font-size: 1.3em;
+    margin: auto 15px;
+    text-align: center;
+    width: 100px;
+}
+
+.selecionado {
+    border-bottom: 3px solid #359bc7;
+}
+
+#main-content {
+    background-image: url("paisagem.png");
+    background-position: 5% 86%;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: 'Lora', serif;
+    height: calc(100vh- 80px);
+    justify-content: flex-end;
+}
+
+#login-screen{
+    align-items: center;
+    background-color:  rgba(0, 0, 0, .8);;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40%;
+    text-align: left;
+}
+
+h2{
+    color:#359bc7;
+    font-size: 2.5em;
+    align-self:flex-start;
+    margin-left: 110px;
+}
+
+.input-sections{
+    color:#96a19d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+label {
+    font-size: 1.2em;
+    margin: 2px;
+}
+
+input{
+    border-radius: 7px;
+    background-color: #E5DBD0;
+    height: 30px;
+    width: 300px;  
+}
+
+button{
+    background-color:#359bc7;
+    border-radius: 25px;
+    color: #E5DBD0;
+    font-family: 'Lora', serif;
+    font-size:1.2em;
+    height: 40px;
+    margin: 20px;
+    width: 310px;
+}
+
+a{
+    color:#96a19d;
+}
